@@ -91,8 +91,8 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
     new_node->parent = padre;
     if(padre == NULL) tree->root = new_node;
 
-    else if(tree->lower_than(key, parent->pair->key)) parent->left = new_node;
-    else parent->right = new_node;
+    else if(tree->lower_than(key, padre->pair->key)) padre->left = new_node;
+    else padre->right = new_node;
 
     tree->current = new_node;
     
