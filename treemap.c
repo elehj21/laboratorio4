@@ -160,8 +160,7 @@ void removeNode(TreeMap * tree, TreeNode* node) {
 
         removeNode(tree, min);
         
-        free(min->pair);
-        free(min);
+        
     }
 }
 
