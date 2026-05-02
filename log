@@ -32,3 +32,8 @@ treemap.c:64:16: error: implicit declaration of function ‘lower_than’ [-Wimp
    64 |             if(lower_than(aux->pair->key, key) == 1) aux = aux->right;
       |                ^~~~~~~~~~
 79045c1
+Sat May  2 05:36:05 PM UTC 2026: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9d54204
