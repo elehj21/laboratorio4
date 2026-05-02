@@ -101,3 +101,9 @@ treemap.c:109:21: error: expected expression before ‘=’ token
   109 |     while(x->left !== NULL)
       |                     ^
 89aac0d
+Sat May  2 07:20:58 PM UTC 2026: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  15|4
+total_score: 25/60
+806fe13
